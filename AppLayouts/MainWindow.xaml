@@ -1,0 +1,15 @@
+﻿<Window x:Class="AppLayouts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppLayouts"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="200">
+    <StackPanel>
+        <Button x:Name="btnUniformGrid" Click="btnUniformGrid_Click">UniformGrid</Button>
+        <Button x:Name="btnWrapPanel" Click="btnWrapPanel_Click">WrapPanel</Button>
+        <Button x:Name="bntDock" Click="bntDock_Click">DockPanel</Button>
+        <Button x:Name="btnGrid" Click="btnGrid_Click">Grid</Button>
+    </StackPanel>
+</Window>

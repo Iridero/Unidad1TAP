@@ -1,0 +1,29 @@
+﻿<Window x:Class="AppLayouts.WndWrapPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppLayouts"
+        mc:Ignorable="d"
+        Title="WndWrapPanel" Height="100" Width="400">
+    <UniformGrid Columns="2">
+        <WrapPanel>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            
+        </WrapPanel>
+        <WrapPanel Orientation="Vertical">
+            <Button Width="70">Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+            <Button>Botón</Button>
+        </WrapPanel>
+    </UniformGrid>
+</Window>

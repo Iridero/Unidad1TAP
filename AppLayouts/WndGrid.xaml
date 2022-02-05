@@ -1,0 +1,60 @@
+﻿<Window x:Class="AppLayouts.WndGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppLayouts"
+        mc:Ignorable="d"
+        Title="WndGrid" Height="450" Width="800">
+    <UniformGrid Columns="2">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.40*" />
+                <RowDefinition Height="0.20*" />
+                <RowDefinition Height="0.20*" />
+                <RowDefinition Height="0.20*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0">a</Button>
+            <Button Grid.Row="0" Grid.Column="1">b</Button>
+            <Button Grid.Row="0" Grid.Column="2">c</Button>
+            <Button Grid.Row="0" Grid.Column="3">d</Button>
+            <Button Grid.Row="1" Grid.Column="0">e</Button>
+            <Button Grid.Row="1" Grid.Column="1">f</Button>
+            <Button Grid.Row="1" Grid.Column="2">g</Button>
+            <Button Grid.Row="1" Grid.Column="3">h</Button>
+            <Button Grid.Row="2" Grid.Column="0">i</Button>
+            <Button Grid.Row="2" Grid.Column="1">j</Button>
+            <Button Grid.Row="2" Grid.Column="2">k</Button>
+            <Button Grid.Row="2" Grid.Column="3">l</Button>
+            <Button Grid.Row="3" Grid.Column="0">m</Button>
+            <Button Grid.Row="3" Grid.Column="1">n</Button>
+            <Button Grid.Row="3" Grid.Column="2">o</Button>
+            <Button Grid.Row="3" Grid.Column="3">p</Button>
+        </Grid>
+        <Grid Height="150">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0">Dato 1</Label>
+            <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+            <Label Grid.Row="1" Grid.Column="0">Dato 1</Label>
+            <TextBox Grid.Row="1" Grid.Column="1"></TextBox>
+            <Label Grid.Row="2" Grid.Column="0">Dato 1</Label>
+            <TextBox Grid.Row="2" Grid.Column="1"></TextBox>
+        </Grid>
+    </UniformGrid>
+</Window>
